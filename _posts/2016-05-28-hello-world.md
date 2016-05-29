@@ -6,6 +6,6 @@
 
 ##### Titre 5
 
-Coucou ça va bien [1]
+Coucou ça va bien [^1]
 
 [1]: test
