@@ -1,11 +1,8 @@
-## Hello world
+---
+layout: post
+title: Hello world
+---
 
-### Titre 3
+Je viens de finir mon minimémoire sur la question : "Pourquoi Wikipedia est-elle fiable ?"... et il me reste environ 45 pages à abattre pour le 20 juin. Ce n'est donc pas dans l'immédiat que je vais pouvoir entretenir ce blog tout juste sorti de l'oeuf et fonctionnant avec Markdown. En attendant, je suis content, les notes de bas de pages fonctionnent[^fn-1].
 
-#### Titre 4
-
-##### Titre 5
-
-Coucou ça va bien [^fn-1]
-
-[^fn-1]: test
+[^fn-1]: La preuve !
