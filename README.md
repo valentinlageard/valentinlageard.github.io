@@ -1,5 +1,5 @@
-My blog.
+### My blog.
 
-Credits : 
- * Powered by Jekyll
- * Theme : Lanion by Mark Otto
+#### Credits : 
+ * Powered by [Jekyll](https://jekyllrb.com/)
+ * Theme : [Lanyon](http://lanyon.getpoole.com/) by Mark Otto
