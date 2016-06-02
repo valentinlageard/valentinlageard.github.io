@@ -1,4 +1,4 @@
-![logo](/images/logo.svg)
+<img src="http://valentinlageard.github.io/images/logo.svg" height=200 style="float:right;">
 
 ### Lo-phi, a blog about philosophy, sciences and free culture. 
 
