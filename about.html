@@ -5,5 +5,5 @@ title: A propos
 
 <div style="float:left;"><img src="https://avatars3.githubusercontent.com/u/17970152" alt="valentin lageard" width=150 style="border-radius:10px; margin:10px"></div>
 
-{% include about.md %}
-{{ about.md | markdownify }}
+{% capture about %}{% include about.md %}{% endcapture %}
+{{ about | markdownify }}
