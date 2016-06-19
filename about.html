@@ -3,7 +3,7 @@ layout: page
 title: A propos
 ---
 
-<div style="float:left;"><img src="https://avatars3.githubusercontent.com/u/17970152" alt="valentin lageard" width=150 style="border-radius:10px; margin:10px"></div>
+<div style="float:left;"><img src="https://avatars3.githubusercontent.com/u/17970152" alt="valentin lageard" width=150 style="border-radius:10px; margin-right:10px"></div>
 
 {% capture about %}{% include about.md %}{% endcapture %}
-<p style="margin:10px;">{{ about | markdownify }}</p>
+{{ about | markdownify }}
