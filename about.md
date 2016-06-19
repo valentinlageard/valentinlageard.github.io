@@ -2,7 +2,7 @@
 layout: page
 title: A propos
 ---
-
+{{ post.excerpt | remove: '<p>' | remove: '</p>' }}
 <img src="https://avatars3.githubusercontent.com/u/17970152" width=100px style="border-radius:10px; float:left; margin:10px">
 
 **Valentin Lageard**, étudiant en master de philosophie analytique (LOPHISC).
