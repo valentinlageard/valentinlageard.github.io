@@ -96,7 +96,12 @@ h1, h2, h3, h4, h5, h6 {
 .logotitle {
   display: inline;
   margin: 0px 0px -11px 6px;
+  width: 132px;
   height: 45px;
+  background-image: url("/images/titleglitch.gif");
+}
+.logotitle:hover {
+  background-image: url("/images/titlenonglitch.gif");
 }
 
 /*
