@@ -13,7 +13,7 @@ Après un long paramétrage du graph à l'empirique et la modification de la fon
 
 ![philosophy map network taxonomy](https://github.com/valentinlageard/valentinlageard.github.io/raw/master/images/philo4layers.jpg)
 
-Et ça encore c'est pas tout, il n'y a ici que 4 niveaux de hiérarchie (sans compter le noeud central). Si on rajoute le 5<sub>ème</sub> ça devient beaucoup plus détaillé (et beaucoup moins lisible).
+Et ça encore c'est pas tout, il n'y a ici que 4 niveaux de hiérarchie (sans compter le noeud central). Si on rajoute le 5<sup>ème</sup> ça devient beaucoup plus détaillé (et beaucoup moins lisible).
 
 ![philosophy map network taxonomy](https://github.com/valentinlageard/valentinlageard.github.io/raw/master/images/graph5layersdebugeddown.jpg)
 
