@@ -42,7 +42,7 @@ On apprend que Wittgenstein pèse plus que Nietzsche.
 
 ![philosophy map network wittgenstein nietzsche](https://github.com/valentinlageard/valentinlageard.github.io/raw/master/images/philowittgynietzsche.jpg)
 
-Enfin, on note la petite place mais néanmoins existante de la philosophie de la drogue (mention spéciale pour la sous-catégorie "Drugs and Consciousness".
+Enfin, on note la petite place mais néanmoins existante de la philosophie de la drogue (mention spéciale pour la sous-catégorie "Drugs and Consciousness").
 
 ![philosophy map network drugs](https://github.com/valentinlageard/valentinlageard.github.io/raw/master/images/philodrugs.jpg)
 
