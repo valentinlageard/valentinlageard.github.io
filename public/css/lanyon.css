@@ -115,6 +115,10 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 0.7rem;
   margin-bottom: 3rem;
   border-bottom: 1px solid #eee;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  z-index:1;
 }
 .masthead-title {
   margin-top: 0;
@@ -237,6 +241,7 @@ a.sidebar-nav-item:focus {
   background-color: #fff;
   border-radius: .25rem;
   cursor: pointer;
+  z-index: 1;
 }
 
 .sidebar-toggle:before {
@@ -299,7 +304,8 @@ a.sidebar-nav-item:focus {
           backface-visibility: hidden;
 }
 .wrap,
-.sidebar-toggle {
+.sidebar-toggle,
+.masthead {
   -webkit-transition: -webkit-transform .3s ease-in-out;
           transition: transform .3s ease-in-out;
 }
@@ -310,7 +316,8 @@ a.sidebar-nav-item:focus {
 }
 #sidebar-checkbox:checked ~ .sidebar,
 #sidebar-checkbox:checked ~ .wrap,
-#sidebar-checkbox:checked ~ .sidebar-toggle {
+#sidebar-checkbox:checked ~ .sidebar-toggle,
+#sidebar-checkbox:checked ~ .masthead {
   -webkit-transform: translateX(14rem);
       -ms-transform: translateX(14rem);
           transform: translateX(14rem);
