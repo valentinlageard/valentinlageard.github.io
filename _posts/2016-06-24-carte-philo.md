@@ -4,7 +4,7 @@ title: Cartographier la philosophie
 permalink: /carte-philo
 ---
 
-Récemment, je trainais sur [philpapers](http://philpapers.org) comme tout bon étudiant en philo qui est en rush sur ses rendus et à un moment donné je me suis arrêté sur leur page de catégorie et je me suis dit que c'était fou à quel point leur taxonomie était détaillée. Et puis d'un coup une idée m'a frappé.
+Récemment, je trainais sur [Philpapers](http://philpapers.org) comme tout bon étudiant en philo qui est en rush sur ses rendus et à un moment donné je me suis arrêté sur leur page de catégorie et je me suis dit que c'était fou à quel point leur taxonomie était détaillée. Et puis d'un coup une idée m'a frappé.
 
 Et si j'utilisais cette taxonomie fantastiquement exhaustive pour faire une **carte de la philosophie**. Je me suis dit que c'était une idée fantastique et je me suis mis au travail.
 
@@ -12,11 +12,13 @@ La première étape fut de sélectionner quel type de graphique utiliser et puis
 
 Après un long paramétrage du graph à l'empirique et la modification de la fonction d'affichage des labels de networkx, j'ai abouti au but tant désiré : une **représentation graphique de la taxonomie de la philosophie**. Et c'était beau.
 
-![philosophy map network taxonomy](https://github.com/valentinlageard/valentinlageard.github.io/raw/master/images/philo4layers.jpg)
+![philosophy map network taxonomy](/images/philo4layersthumbnail.jpg)
+*[Télécharger l'image (18Mo)](/images/philo4layers.jpg)*
 
 Et ça encore c'est pas tout, il n'y a ici que 4 niveaux de hiérarchie (sans compter le noeud central). Si on rajoute le 5<sup>ème</sup> ça devient beaucoup plus détaillé (et beaucoup moins lisible).
 
-![philosophy map network taxonomy](https://github.com/valentinlageard/valentinlageard.github.io/raw/master/images/graph5layersdebugeddown.jpg)
+![philosophy map network taxonomy](/images/philo5layersthumbnail.jpg)
+*[Télécharger l'image (25Mo)](/images/graph5layersdebugeddown.jpg)*
 
 Au premier regard on a l'impression de se tenir devant un vieux rêve de philosophe enfin réalisé. Et puis on parcourt les branches en partant du centre et l'on découvre des choses intéressantes et gratifiantes comme par exemple que la continentalité est classée comme tradition contrairement à la philosophie analytique qui n'est pas considérée comme une tradition.
 
