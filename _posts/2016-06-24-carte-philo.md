@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Cartographier la philosophie
+permalink: /carte-philo
 ---
 
 Récemment, je trainais sur [philpapers](http://philpapers.org) comme tout bon étudiant en philo qui est en rush sur ses rendus et à un moment donné je me suis arrêté sur leur page de catégorie et je me suis dit que c'était fou à quel point leur taxonomie était détaillée. Et puis d'un coup une idée m'a frappé.
@@ -41,7 +42,7 @@ On apprend que Wittgenstein pèse plus que Nietzsche.
 
 ![philosophy map network wittgenstein nietzsche](https://github.com/valentinlageard/valentinlageard.github.io/raw/master/images/philowittgynietzsche.jpg)
 
-Enfin, on note la petite place mais néanmoins existante de la philosophie de la drogue.
+Enfin, on note la petite place mais néanmoins existante de la philosophie de la drogue (mention spéciale pour la sous-catégorie "Drugs and Consciousness".
 
 ![philosophy map network drugs](https://github.com/valentinlageard/valentinlageard.github.io/raw/master/images/philodrugs.jpg)
 
