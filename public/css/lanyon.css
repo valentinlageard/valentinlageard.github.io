@@ -64,6 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 .wrap {
   position: relative;
   width: 100%;
+  margin-top: 5rem;
 }
 
 
@@ -113,7 +114,6 @@ h1, h2, h3, h4, h5, h6 {
 .masthead {
   padding-top:    0.2rem;
   padding-bottom: 0.7rem;
-  margin-bottom: 3rem;
   border-bottom: 1px solid #eee;
   position: fixed;
   width: 100%;
@@ -451,7 +451,8 @@ a.pagination-item:hover {
 
 .layout-reverse #sidebar-checkbox:checked ~ .sidebar,
 .layout-reverse #sidebar-checkbox:checked ~ .wrap,
-.layout-reverse #sidebar-checkbox:checked ~ .sidebar-toggle {
+.layout-reverse #sidebar-checkbox:checked ~ .sidebar-toggle,
+.layout-reverse #sidebar-checkbox:checked ~ .masthead{
   -webkit-transform: translateX(-14rem);
       -ms-transform: translateX(-14rem);
           transform: translateX(-14rem);
