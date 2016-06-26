@@ -18,7 +18,7 @@ Après un long paramétrage du graph à l'empirique et la modification de la fon
 Et encore ce n'est pas tout, il n'y a ici que 4 niveaux de hiérarchie (sans compter le noeud central). Si on rajoute le 5<sup>ème</sup>, cela devient beaucoup plus détaillé (et beaucoup moins lisible aussi...).
 
 ![philosophy map network taxonomy](/images/philo5layersthumbnail.jpg)
-*[Télécharger l'image (25Mo)](/images/graph5layersdown.jpg)*
+*[Télécharger l'image (25Mo)](/images/philo5layersdown.jpg)*
 
 Au premier regard on a l'impression de se tenir devant un antique rêve de philosophe enfin réalisé. Et puis on parcourt les branches en partant du centre et l'on découvre des choses intéressantes et gratifiantes comme par exemple que la continentalité est classée comme tradition contrairement à la philosophie analytique qui n'est pas considérée comme une tradition.
 
