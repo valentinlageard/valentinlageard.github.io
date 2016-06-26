@@ -233,7 +233,7 @@ a.sidebar-nav-item:focus {
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
 .sidebar-toggle {
   position: absolute;
-  top:  .8rem;
+  top:  .6rem;
   left: 1rem;
   display: block;
   padding: .25rem .75rem;
@@ -242,6 +242,12 @@ a.sidebar-nav-item:focus {
   border-radius: .25rem;
   cursor: pointer;
   z-index: 1;
+}
+
+@media (max-width:38em) {
+  .sidebar-toggle {
+    top: .75rem;
+  }
 }
 
 .sidebar-toggle:before {
