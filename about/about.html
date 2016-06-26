@@ -1,0 +1,10 @@
+---
+layout: page
+title: A propos
+permalink: /about/
+---
+
+<img src="https://avatars3.githubusercontent.com/u/17970152" alt="valentin lageard" width=150 style="border-radius:10px; margin-right:10px; float:left; display: block;">
+
+{% capture about %}{% include about.md %}{% endcapture %}
+{{ about | markdownify }}
