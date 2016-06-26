@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 45px;
   background-image: url("/images/titlenonglitch.gif");
 }
-.logotitle:hover {
+.logotitle:hover, .logotitle:active {
   background-image: url("/images/titleglitch.gif");
 }
 
