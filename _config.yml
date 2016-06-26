@@ -1,7 +1,7 @@
 # Setup
 title:               Lo-phi
 tagline:             'Philosophie, sciences, numérique et culture libre.'
-description:         "Blog de Valentin Lageard."
+description:         "Blog de Valentin Lageard, étudiant en master de philosophie."
 url:                 http://lophi.ramdam.space
 baseurl:             ''
 paginate:            5
