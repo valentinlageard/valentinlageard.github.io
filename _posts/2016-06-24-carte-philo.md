@@ -13,12 +13,12 @@ La première étape fut de sélectionner quel type de graphique utiliser et puis
 Après un long paramétrage du graph à l'empirique et la modification de la fonction d'affichage des labels de networkx, j'ai abouti au but tant désiré : une **représentation graphique de la taxonomie de la philosophie**. Et c'était beau.
 
 ![philosophy map network taxonomy](/images/philo4layersthumbnail.jpg)
-*[Télécharger l'image (18Mo)](/images/philo4layers.jpg)*
+*[Télécharger l'image (10Mo)](/images/philo4layers.jpg)*
 
 Et encore ce n'est pas tout, il n'y a ici que 4 niveaux de hiérarchie (sans compter le noeud central). Si on rajoute le 5<sup>ème</sup>, cela devient beaucoup plus détaillé (et beaucoup moins lisible aussi...).
 
 ![philosophy map network taxonomy](/images/philo5layersthumbnail.jpg)
-*[Télécharger l'image (25Mo)](/images/graph5layersdebugeddown.jpg)*
+*[Télécharger l'image (25Mo)](/images/graph5layersdown.jpg)*
 
 Au premier regard on a l'impression de se tenir devant un antique rêve de philosophe enfin réalisé. Et puis on parcourt les branches en partant du centre et l'on découvre des choses intéressantes et gratifiantes comme par exemple que la continentalité est classée comme tradition contrairement à la philosophie analytique qui n'est pas considérée comme une tradition.
 
