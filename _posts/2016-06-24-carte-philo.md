@@ -4,50 +4,36 @@ title: Cartographier la philosophie
 permalink: /carte-philo
 ---
 
-Récemment, je traînais sur [Philpapers](http://philpapers.org) comme tout bon étudiant en philo en rush sur ses rendus et m'arrêtant sur leur [page des catégories](http://philpapers.org/browse/all) je me suis dit que leur taxonomie était diablement détaillée et exhaustive. Et puis d'un coup une idée m'a frappé.
+Récemment, alors que je faisais des recherches sur [Philpapers](http://philpapers.org), j'ai pu constaté la richesse et le détail de leur [page des catégories](http://philpapers.org/browse/all) et une idée m'est venue.
 
-Et si j'utilisais cette taxonomie fantastiquement exhaustive pour faire une **carte de la philosophie**. Je me suis dit que c'était une idée fantastique et je me suis mis au travail.
+Et si j'utilisais cette taxonomie fantastiquement exhaustive pour produire une **carte taxinomique de la philosophie**. L'idée m'a paru intéressante est je me suis mis au travail.
 
-La première étape fut de sélectionner quel type de graphique utiliser et puisque la taxonomie de Philpapers inclut une hiérarchie permettant à des sous-catégories d'appartenir à plusieurs catégories parentes, je me suis dit qu'un réseau en cercles concentriques serait pas mal. Habitué de python, j'ai opté pour [NetworkX](https://networkx.github.io/) pour créer mon graph. J'ai utilisé [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)[^fn-beautsoup] pour scraper le contenu de la page et une fonction codée maison pour traduire le contenu du site en graph networkx. De plus, puisque Philpapers nous donne aussi le nombre d'articles par catégorie, je me suis dit que ce serait une donnée intéressante si la taille des noeuds/catégories dépendait du nombre d'article de cette catégorie et j'ai aussi agrégé cette donnée.
+La première étape fut de sélectionner le type de graphique à utiliser et puisque la taxonomie de Philpapers inclut une hiérarchie permettant à des sous-catégories d'appartenir à plusieurs catégories parentes, je me suis dit qu'un réseau dirigé en cercles concentriques serait pertinent avec chaque cercle représentant un niveau dans la relation parent/enfant. Habitué de python, j'ai opté pour [NetworkX](https://networkx.github.io/) pour créer mon graph. J'ai utilisé [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)[^fn-beautsoup] pour scraper le contenu de la page et une fonction codée maison pour traduire le contenu du site en graph networkx. De plus, puisque Philpapers nous donne aussi le nombre d'articles par catégorie, je me suis dit qu'il serait intéressant si la taille des noeuds correspondait à la quantité d'articles dans la catégorie associée à ce noeud.
 
-Après un long paramétrage du graph à l'empirique et la modification de la fonction d'affichage des labels de networkx, j'ai abouti au but tant désiré : une **représentation graphique de la taxonomie de la philosophie**. Et c'était beau.
+Après un long paramétrage du graph et la modification de la fonction d'affichage des labels de networkx, j'ai abouti au but tant désiré : une **représentation graphique de la taxonomie de la philosophie**.
 
 ![philosophy map network taxonomy](/images/philo4layersthumbnail.jpg)
 *[Télécharger l'image (3Mo)](/images/philo4layers.svg)*
 
-Et encore ce n'est pas tout, il n'y a ici que 4 niveaux de hiérarchie (sans compter le noeud central). Si on rajoute le 5<sup>ème</sup>, cela devient beaucoup plus détaillé (et beaucoup moins lisible aussi...).
+Dans cette première version simplifiée, il n'y a que 4 niveaux de hiérarchie (sans compter le noeud central). Si on rajoute le 5<sup>ème</sup> niveau, la carte devient sensiblement plus détaillée.
 
 ![philosophy map network taxonomy](/images/philo5layersthumbnail.jpg)
 *[Télécharger l'image (11.9Mo)](/images/philo5layers.svg)*
 
-Au premier regard on a l'impression de se tenir devant un antique rêve de philosophe enfin réalisé. Et puis on parcourt les branches en partant du centre et l'on découvre des choses intéressantes et gratifiantes comme par exemple que la continentalité est classée comme tradition contrairement à la philosophie analytique qui n'est pas considérée comme une tradition.
+Au premier regard on a l'impression de se tenir devant un antique rêve de philosophe enfin réalisé. Et puis on parcourt les branches et l'on découvre des choses intéressantes et gratifiantes comme par exemple que la philosophie continentale est considérée comme une tradition contrairement à la philosophie analytique.
 
 On trouve la représentation de certains biais culturels comme par exemple que l'Asie semble intéresser bien plus que l'Afrique.
 
 ![philosophy map network african oriental](https://github.com/valentinlageard/valentinlageard.github.io/raw/master/images/philoafroasia.jpg)
 
-On apprend que le féminisme a une place bien fournie sur l'arbre philosophique.
+On apprend que le féminisme a une taxinomie fournie sur l'arbre philosophique.
 
 ![philosophy map network feminism](https://github.com/valentinlageard/valentinlageard.github.io/raw/master/images/philofeminism.jpg)
 
-On trouve la zone des trucs intéressants.
+Et on découvre la zone des thèmes qui m'intéressent.
 
 ![philosophy map network computation consciousness](https://github.com/valentinlageard/valentinlageard.github.io/raw/master/images/philocool.jpg)
 
 ![philosophy map network consciousness ](https://github.com/valentinlageard/valentinlageard.github.io/raw/master/images/philoconscious.jpg)
-
-Et on repère très rapidement la zone du [bullshit](http://rationalwiki.org/wiki/Bullshit).
-
-![philosophy map network bullshit Derrida](https://github.com/valentinlageard/valentinlageard.github.io/raw/master/images/philobullshit.jpg)
-
-On apprend que Wittgenstein pèse plus que Nietzsche en terme de quantité d'articles.
-
-![philosophy map network wittgenstein nietzsche](https://github.com/valentinlageard/valentinlageard.github.io/raw/master/images/philowittgynietzsche.jpg)
-
-Enfin, on note la petite place mais néanmoins existante de la philosophie de la drogue (mention spéciale pour la sous-catégorie "Drugs and Consciousness").
-
-![philosophy map network drugs](https://github.com/valentinlageard/valentinlageard.github.io/raw/master/images/philodrugs.jpg)
-
-Mais surtout ce que l'on apprend, c'est une certaine humilité face à une telle immensité.
 
 [^fn-beautsoup]: Qui est par ailleurs un scraper python très intuitif et facile à maitriser que je recommande à tous.
