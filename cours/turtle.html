@@ -271,6 +271,7 @@ pre[data-line] .line-highlight[data-end]:after {
 
 <p>Avant tous les programmes utilisant turtle, on a besoin d&#x2019;importer le module avec la ligne suivante : <code>import turtle</code></p>
 <p><a href="https://opentechschool.github.io/python-beginners/en/_images/default.png"><img src="https://opentechschool.github.io/python-beginners/en/_images/default.png"></a></p>
+<p>On a une fl&#xE8;che et pas une tortue ! Pas grave, il suffit d&#x2019;executer <code>turtle.shape(&quot;turtle&quot;)</code> pour transformer la fl&#xE8;che en tortue.</p>
 <p>La tortue peut se d&#xE9;placer vers l&#x2019;avant avec : <code>turtle.forward(x)</code> o&#xF9; <code>x</code> est le nombre de pixels qu&#x2019;elle se d&#xE9;place.</p>
 <p><a href="https://opentechschool.github.io/python-beginners/en/_images/forward.png"><img src="https://opentechschool.github.io/python-beginners/en/_images/forward.png"></a></p>
 <p>La tortue peut se d&#xE9;placer vers l&#x2019;arri&#xE8;re avec : <code>turtle.backward(x)</code> o&#xF9; <code>x</code> est le nombre de pixels qu&#x2019;elle se d&#xE9;place.</p>
@@ -281,17 +282,32 @@ pre[data-line] .line-highlight[data-end]:after {
 <p>De la m&#xEA;me mani&#xE8;re, on peut tourner la tortue dans le sens antihoraire avec <code>turtle.left(x)</code>.</p>
 <h2 class="mume-header" id="divers">Divers</h2>
 
-<p>Si on en a marre d&#x2019;avoir une fl&#xE8;che, on peut essayer : <code>turtle.shape(&quot;turtle&quot;)</code></p>
 <p><code>turtle.clear()</code> permet d&#x2019;effacer les traces laiss&#xE9;es par la tortue.</p>
 <p>Enfin <code>turtle.done()</code> ferme la fen&#xEA;tre de dessin.</p>
 <h2 class="mume-header" id="cheatsheet">Cheatsheet</h2>
 
 <ul>
 <li><code>import turtle</code> : ligne &#xE0; mettre au d&#xE9;but du programme pour utiliser la tortue.</li>
-<li><code>turtle.forward(x)</code> : fait <strong>avancer</strong> la tortue de <code>x</code> pixels.</li>
-<li><code>turtle.backward(x)</code> : fait <strong>reculer</strong> la tortue de <code>x</code> pixels.</li>
-<li><code>turtle.right(x)</code> : fait <strong>tourner</strong> la tortue dans le <strong>sens horaire</strong> de <code>x</code> degr&#xE9;s.</li>
-<li><code>turtle.left(x)</code> : fait <strong>tourner</strong> la tortue dans le <strong>sens anti-horaire</strong> de <code>x</code> degr&#xE9;s.</li>
+<li><code>turtle.forward(x)</code> : fait <strong>avancer</strong> la tortue de <code>x</code> pixels.
+<ul>
+<li>Raccourci : <code>turtle.fd(x)</code></li>
+</ul>
+</li>
+<li><code>turtle.backward(x)</code> : fait <strong>reculer</strong> la tortue de <code>x</code> pixels.
+<ul>
+<li>Raccourci : <code>turtle.bk(x)</code></li>
+</ul>
+</li>
+<li><code>turtle.right(x)</code> : fait <strong>tourner</strong> la tortue dans le <strong>sens horaire</strong> de <code>x</code> degr&#xE9;s.
+<ul>
+<li>Raccourci : <code>turtle.rt(x)</code></li>
+</ul>
+</li>
+<li><code>turtle.left(x)</code> : fait <strong>tourner</strong> la tortue dans le <strong>sens anti-horaire</strong> de <code>x</code> degr&#xE9;s.
+<ul>
+<li>Raccourci : <code>turtle.lt(x)</code></li>
+</ul>
+</li>
 <li><code>turtle.home()</code> : fait <strong>revenir la tortue au centre de l&#x2019;&#xE9;cran</strong>.</li>
 <li><code>turtle.clear()</code> : <strong>efface les traces</strong> laiss&#xE9;es par la tortue.</li>
 <li><code>turtle.done()</code> : <strong>ferme la fen&#xEA;tre</strong> de dessin.</li>
