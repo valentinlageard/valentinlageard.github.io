@@ -265,34 +265,50 @@ pre[data-line] .line-highlight[data-end]:after {
       <div class="mume markdown-preview  ">
       <h1 class="mume-header" id="turtle">Turtle</h1>
 
+<p><a href="https://storyworks.scholastic.com/content/dam/classroom-magazines/storyworks/issues/2019-20/050120/sea-turtle-summer/STW06-202005-p22-Play-HR.jpg"><img src="https://storyworks.scholastic.com/content/dam/classroom-magazines/storyworks/issues/2019-20/050120/sea-turtle-summer/STW06-202005-p22-Play-HR.jpg"></a></p>
 <p>Turtle est un module python permettant de dessiner en &#xE9;crivant du code python. L&#x2019;id&#xE9;e est qu&#x2019;on a une tortue qui peut se d&#xE9;placer sur l&#x2019;&#xE9;cran et laisse une trace derri&#xE8;re elle quand elle se d&#xE9;place.</p>
+<h2 class="mume-header" id="introduction-avancer-et-reculer">Introduction : avancer et reculer</h2>
+
 <p>Avant tous les programmes utilisant turtle, on a besoin d&#x2019;importer le module avec la ligne suivante : <code>import turtle</code></p>
+<p><a href="https://opentechschool.github.io/python-beginners/en/_images/default.png"><img src="https://opentechschool.github.io/python-beginners/en/_images/default.png"></a></p>
 <p>La tortue peut se d&#xE9;placer vers l&#x2019;avant avec : <code>turtle.forward(x)</code> o&#xF9; <code>x</code> est le nombre de pixels qu&#x2019;elle se d&#xE9;place.</p>
+<p><a href="https://opentechschool.github.io/python-beginners/en/_images/forward.png"><img src="https://opentechschool.github.io/python-beginners/en/_images/forward.png"></a></p>
 <p>La tortue peut se d&#xE9;placer vers l&#x2019;arri&#xE8;re avec : <code>turtle.backward(x)</code> o&#xF9; <code>x</code> est le nombre de pixels qu&#x2019;elle se d&#xE9;place.</p>
 <p>Si jamais la tortue sort de l&#x2019;&#xE9;cran, on peut la faire revenir au centre de l&#x2019;&#xE9;cran avec <code>turtle.home()</code>.</p>
+<h2 class="mume-header" id="tourner">Tourner</h2>
+
 <p>On peut tourner la tortue sur elle-m&#xEA;me avec <code>turtle.right(x)</code> o&#xF9; <code>x</code> est un angle de rotation en degr&#xE9;. Par exemple, <code>turtle.right(90)</code> fait tourner la tortue de 90&#xB0; en sens horaire.</p>
 <p>De la m&#xEA;me mani&#xE8;re, on peut tourner la tortue dans le sens antihoraire avec <code>turtle.left(x)</code>.</p>
-<p>Enfin <code>turtle.clear()</code> permet d&#x2019;effacer les traces laiss&#xE9;es par la tortue.</p>
+<h2 class="mume-header" id="divers">Divers</h2>
+
+<p>Si on en a marre d&#x2019;avoir une fl&#xE8;che, on peut essayer : <code>turtle.shape(&quot;turtle&quot;)</code></p>
+<p><code>turtle.clear()</code> permet d&#x2019;effacer les traces laiss&#xE9;es par la tortue.</p>
+<p>Enfin <code>turtle.done()</code> ferme la fen&#xEA;tre de dessin.</p>
 <h2 class="mume-header" id="cheatsheet">Cheatsheet</h2>
 
 <ul>
 <li><code>import turtle</code> : ligne &#xE0; mettre au d&#xE9;but du programme pour utiliser la tortue.</li>
-<li><code>turtle.forward(x)</code> : fait avancer la tortue de <code>x</code> pixels.</li>
-<li><code>turtle.backward(x)</code> : fait reculer la tortue de <code>x</code> pixels.</li>
-<li><code>turtle.right(x)</code> : fait tourner la tortue dans le sens horaire de <code>x</code> degr&#xE9;s.</li>
-<li><code>turtle.left(x)</code> : fait tourner la tortue dans le sens anti-horaire de <code>x</code> degr&#xE9;s.</li>
-<li><code>turtle.home()</code> : fait revenir la tortue au centre de l&#x2019;&#xE9;cran.</li>
-<li><code>turtle.clear()</code> : efface les traces laiss&#xE9;es par la tortue.</li>
+<li><code>turtle.forward(x)</code> : fait <strong>avancer</strong> la tortue de <code>x</code> pixels.</li>
+<li><code>turtle.backward(x)</code> : fait <strong>reculer</strong> la tortue de <code>x</code> pixels.</li>
+<li><code>turtle.right(x)</code> : fait <strong>tourner</strong> la tortue dans le <strong>sens horaire</strong> de <code>x</code> degr&#xE9;s.</li>
+<li><code>turtle.left(x)</code> : fait <strong>tourner</strong> la tortue dans le <strong>sens anti-horaire</strong> de <code>x</code> degr&#xE9;s.</li>
+<li><code>turtle.home()</code> : fait <strong>revenir la tortue au centre de l&#x2019;&#xE9;cran</strong>.</li>
+<li><code>turtle.clear()</code> : <strong>efface les traces</strong> laiss&#xE9;es par la tortue.</li>
+<li><code>turtle.done()</code> : <strong>ferme la fen&#xEA;tre</strong> de dessin.</li>
+<li><code>turtle.shape(&quot;turtle&quot;)</code> : remplace la fl&#xE8;che par une tortue.</li>
 </ul>
 <h2 class="mume-header" id="exercices">Exercices</h2>
 
 <p><strong>Exercice 1</strong></p>
 <p>Faire un programme o&#xF9; la tortue dessine un carr&#xE9; de 100 pixels de c&#xF4;t&#xE9;.</p>
+<p><a href="https://opentechschool.github.io/python-beginners/en/_images/square.png"><img src="https://opentechschool.github.io/python-beginners/en/_images/square.png"></a></p>
 <p><strong>Exercice 2</strong></p>
 <p>Faire un programme o&#xF9; la tortue dessine un hexagone de 100 pixels de c&#xF4;t&#xE9;.</p>
 <p><strong>Exercice 3</strong></p>
 <p>Faire un programme o&#xF9; la tortue dessine un triangle de 100 pixels de c&#xF4;t&#xE9;.</p>
 <p><strong>Exercice 4</strong></p>
+<p>Faire un programme o&#xF9; la tortue &#xE9;crit la premi&#xE8;re lettre de ton pr&#xE9;nom.</p>
+<p><strong>Exercice 5</strong></p>
 <p>Faire un programme o&#xF9; la tortue &#xE9;crit ton pr&#xE9;nom.</p>
 
       </div>
