@@ -20,7 +20,7 @@ Dans cette première version simplifiée, il n'y a que 4 niveaux de hiérarchie 
 ![philosophy map network taxonomy](/images/philo5layersthumbnail.jpg)
 *[Télécharger l'image (11.9Mo)](/images/philo5layers.svg)*
 
-Au premier regard on a l'impression de se tenir devant un antique rêve de philosophe enfin réalisé. Et puis on parcourt les branches et l'on découvre des choses intéressantes et gratifiantes comme par exemple que la philosophie continentale est considérée comme une tradition contrairement à la philosophie analytique.
+Au premier regard on a l'impression de se tenir devant un antique rêve de philosophe enfin réalisé.
 
 On trouve la représentation de certains biais culturels comme par exemple que l'Asie semble intéresser bien plus que l'Afrique.
 
